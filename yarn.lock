@@ -9661,16 +9661,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.2.0":
-  version: 2.2.0
-  resolution: "react-native-gesture-handler@npm:2.2.0"
+"react-native-gesture-handler@npm:2.22.1":
+  version: 2.22.1
+  resolution: "react-native-gesture-handler@npm:2.22.1"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
     invariant: ^2.2.4
-    lodash: ^4.17.21
-    prop-types: ^15.7.2
-  checksum: 9c3cf952002b75cfe3d6e14bb16639052d9fe0d177c056e887716be67b8904931da04616b43a729a3e1e60f9e580caff019003ec3ab94252f3b032e838d8513c
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 31be1a30d35b20dc72426147b3c5b8a2bf23a4666a4208208c423baec098850564e8cb555d360b87435ffe65a4f51f84e5471bf2140979c84589bd787cf5cfe0
   languageName: node
   linkType: hard
 
@@ -9804,13 +9805,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:3.4.1":
-  version: 3.4.1
-  resolution: "react-native-safe-area-context@npm:3.4.1"
+"react-native-safe-area-context@npm:5.1.0":
+  version: 5.1.0
+  resolution: "react-native-safe-area-context@npm:5.1.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 86a0614c5bef60ff8e056cff3fd4200cc6d181653cb6c26992ab62061792474f4872d1f5d394234ec6da75ce8b2960c930f4d6a1b6af3b6579cf1c30b6d64bb5
+  checksum: b03663c8567f24ff9e0fd96f0b06b8b4e3aebb77dd93995cc661996aa6e70f8e96588e78006696277b7c213b65ac9515604d57bd0321b96e42b0a055b3b49f7e
   languageName: node
   linkType: hard
 
@@ -10665,7 +10666,7 @@ __metadata:
 
 "smarthome-sdk@git+https://github.com/Raajakishore20/smarthome-sdk#test_branch":
   version: 0.0.0
-  resolution: "smarthome-sdk@https://github.com/Raajakishore20/smarthome-sdk.git#commit=614a48f91054f4c8065c5f79083913dd86d3b17d"
+  resolution: "smarthome-sdk@https://github.com/Raajakishore20/smarthome-sdk.git#commit=ef479358ab704253937981ea1c30fef6425476a5"
   dependencies:
     "@react-native-async-storage/async-storage": ^2.1.0
     "@react-native-clipboard/clipboard": ^1.14.1
@@ -10686,7 +10687,7 @@ __metadata:
     react: 18.2.0
     react-content-loader: ^7.0.0
     react-native: 0.72.14
-    react-native-gesture-handler: 2.2.0
+    react-native-gesture-handler: 2.22.1
     react-native-linear-gradient: ^2.8.3
     react-native-material-ripple: ^0.9.1
     react-native-modal: ^13.0.1
@@ -10696,7 +10697,7 @@ __metadata:
     react-native-picker-select: ^9.1.3
     react-native-reanimated: ^3.15.0
     react-native-root-toast: ^3.5.1
-    react-native-safe-area-context: 3.4.1
+    react-native-safe-area-context: 5.1.0
     react-native-screens: 2.18.1
     react-native-shapes: ^0.1.0
     react-native-size-matters: ^0.4.2
@@ -10708,7 +10709,7 @@ __metadata:
     redux-persist: ^6.0.0
     redux-saga: ^1.3.0
     yup: ^1.4.0
-  checksum: e6ee05d2705703d5c573ad08407db375e0504989ae2de6c073dd7073049391944c9d1a8e1e5c6ea3faed0d9fc815a7d6771bc43abbabb53fc0d47ba09defd2b0
+  checksum: d452596ca01bf1aa1d726da09380bd560e983d248514b7f0788f91d33d1e2e57b2a0bb0b9975de7faec40f9ecb2dc2d9fa23b2e950597b201240c5615b74146a
   languageName: node
   linkType: hard
 
