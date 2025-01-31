@@ -6,21 +6,10 @@
  */
 
 import React from 'react';
-import {SmartHomeSDK} from 'smarthome-sdk';
-import {View} from 'react-native';
+import {LockScreen} from './src/LockScreen';
 
 const App = () => {
-  return (
-    <View style={{flex: 1, paddingHorizontal: 16, backgroundColor: '#F3FAFF'}}>
-      <SmartHomeSDK
-        accessToken={'accessToken'}
-        propertyId={'218351'}
-        handleExpiredToken={() => {
-          console.log('testing');
-        }}
-      />
-    </View>
-  );
+  return <LockScreen />;
 };
 
 export default App;
