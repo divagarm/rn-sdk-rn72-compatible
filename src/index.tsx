@@ -1,11 +1,11 @@
-// import React from 'react';
-// import { LockScreen } from './LockScreen';
+import React from 'react';
+import { LockScreen } from './LockScreen';
 
-// const SmartSDK = () => {
+const SmartSDK = () => {
 
-//   return (
-//     <LockScreen/>
+  return (
+    <LockScreen/>
 
-// );
-// }
-// export default SmartSDK;
+);
+}
+export default SmartSDK;
